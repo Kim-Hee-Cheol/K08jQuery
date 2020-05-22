@@ -15,7 +15,7 @@ $.get()
 	사용법
 		$.get(url, param, success(data));
 		-url : 정보를 요청할 경로
-		-param : 서보로 전송할 파라미터로 json형태로 기술
+		-param : 서버로 전송할 파라미터로 json형태로 기술
 		-success(data) : 요청이 성공했을 때 실행되는 콜백(callback)메소드.
 			콜백메소드가 호출될 때 전달되는 파라미터를 통해 성공 혹은
 			실패여부를 판단할 수 있다.
