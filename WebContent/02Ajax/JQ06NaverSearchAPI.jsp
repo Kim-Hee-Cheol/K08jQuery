@@ -21,7 +21,7 @@ $(function(){
 			success : sucFuncJson,
 			error : errFunc
 		});
-	});
+	});	
 });
 function sucFuncJson(d){
 	//alert("성공:"+d);
@@ -39,6 +39,8 @@ function sucFuncJson(d){
 		str+="</ul>";
 	});
 	$('#searchResult').html(str);
+	
+	$('#startNum')
 }
 function errFunc(e){
 	alert("실패:"+e.status);
